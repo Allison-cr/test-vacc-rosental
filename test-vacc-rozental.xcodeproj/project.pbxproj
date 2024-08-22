@@ -13,6 +13,8 @@
 		FE5435232C76D1FC003C4C7E /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435222C76D1FC003C4C7E /* BaseCoordinator.swift */; };
 		FE5435252C76D221003C4C7E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435242C76D221003C4C7E /* AppCoordinator.swift */; };
 		FE5435272C76D233003C4C7E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435262C76D233003C4C7E /* MainCoordinator.swift */; };
+		FE54352A2C76D4E3003C4C7E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435292C76D4E3003C4C7E /* WelcomeViewController.swift */; };
+		FE54352C2C76D4F2003C4C7E /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54352B2C76D4F2003C4C7E /* WelcomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FE5435222C76D1FC003C4C7E /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		FE5435242C76D221003C4C7E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		FE5435262C76D233003C4C7E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		FE5435292C76D4E3003C4C7E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FE54352B2C76D4F2003C4C7E /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		FE54350B2C76CE14003C4C7E /* test-vacc-rozental */ = {
 			isa = PBXGroup;
 			children = (
+				FE5435282C76D4D0003C4C7E /* WelcomeScreen */,
 				FE5435212C76D1EB003C4C7E /* NavigationLayer */,
 				FE5435202C76D1DC003C4C7E /* Application */,
 				FE5435152C76CE15003C4C7E /* Assets.xcassets */,
@@ -81,6 +86,15 @@
 				FE5435262C76D233003C4C7E /* MainCoordinator.swift */,
 			);
 			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		FE5435282C76D4D0003C4C7E /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FE5435292C76D4E3003C4C7E /* WelcomeViewController.swift */,
+				FE54352B2C76D4F2003C4C7E /* WelcomeViewModel.swift */,
+			);
+			path = WelcomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE5435252C76D221003C4C7E /* AppCoordinator.swift in Sources */,
+				FE54352A2C76D4E3003C4C7E /* WelcomeViewController.swift in Sources */,
 				FE54350D2C76CE14003C4C7E /* AppDelegate.swift in Sources */,
+				FE54352C2C76D4F2003C4C7E /* WelcomeViewModel.swift in Sources */,
 				FE5435232C76D1FC003C4C7E /* BaseCoordinator.swift in Sources */,
 				FE5435272C76D233003C4C7E /* MainCoordinator.swift in Sources */,
 				FE54350F2C76CE14003C4C7E /* SceneDelegate.swift in Sources */,
