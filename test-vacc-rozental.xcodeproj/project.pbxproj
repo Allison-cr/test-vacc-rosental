@@ -9,17 +9,21 @@
 /* Begin PBXBuildFile section */
 		FE54350D2C76CE14003C4C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54350C2C76CE14003C4C7E /* AppDelegate.swift */; };
 		FE54350F2C76CE14003C4C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE54350E2C76CE14003C4C7E /* SceneDelegate.swift */; };
-		FE5435112C76CE14003C4C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435102C76CE14003C4C7E /* ViewController.swift */; };
 		FE5435162C76CE15003C4C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5435152C76CE15003C4C7E /* Assets.xcassets */; };
+		FE5435232C76D1FC003C4C7E /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435222C76D1FC003C4C7E /* BaseCoordinator.swift */; };
+		FE5435252C76D221003C4C7E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435242C76D221003C4C7E /* AppCoordinator.swift */; };
+		FE5435272C76D233003C4C7E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5435262C76D233003C4C7E /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE5435092C76CE14003C4C7E /* test-vacc-rozental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-vacc-rozental.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE54350C2C76CE14003C4C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE54350E2C76CE14003C4C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE5435102C76CE14003C4C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE5435152C76CE15003C4C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE54351A2C76CE15003C4C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5435222C76D1FC003C4C7E /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		FE5435242C76D221003C4C7E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FE5435262C76D233003C4C7E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +56,31 @@
 		FE54350B2C76CE14003C4C7E /* test-vacc-rozental */ = {
 			isa = PBXGroup;
 			children = (
-				FE54350C2C76CE14003C4C7E /* AppDelegate.swift */,
-				FE54350E2C76CE14003C4C7E /* SceneDelegate.swift */,
-				FE5435102C76CE14003C4C7E /* ViewController.swift */,
+				FE5435212C76D1EB003C4C7E /* NavigationLayer */,
+				FE5435202C76D1DC003C4C7E /* Application */,
 				FE5435152C76CE15003C4C7E /* Assets.xcassets */,
 				FE54351A2C76CE15003C4C7E /* Info.plist */,
 			);
 			path = "test-vacc-rozental";
+			sourceTree = "<group>";
+		};
+		FE5435202C76D1DC003C4C7E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE54350C2C76CE14003C4C7E /* AppDelegate.swift */,
+				FE54350E2C76CE14003C4C7E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FE5435212C76D1EB003C4C7E /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FE5435222C76D1FC003C4C7E /* BaseCoordinator.swift */,
+				FE5435242C76D221003C4C7E /* AppCoordinator.swift */,
+				FE5435262C76D233003C4C7E /* MainCoordinator.swift */,
+			);
+			path = NavigationLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5435112C76CE14003C4C7E /* ViewController.swift in Sources */,
+				FE5435252C76D221003C4C7E /* AppCoordinator.swift in Sources */,
 				FE54350D2C76CE14003C4C7E /* AppDelegate.swift in Sources */,
+				FE5435232C76D1FC003C4C7E /* BaseCoordinator.swift in Sources */,
+				FE5435272C76D233003C4C7E /* MainCoordinator.swift in Sources */,
 				FE54350F2C76CE14003C4C7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
