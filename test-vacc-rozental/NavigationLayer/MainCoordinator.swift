@@ -36,10 +36,10 @@ final class MainCoordinator: Coordinator {
     /// Configures and starts the main flow of the application.
     /// This method sets up the `MainViewModel` and `MainViewController`, and pushes the main view onto the navigation stack.
     func runMainFlow() {
-        let viewModel = MainViewModel()
-        viewModel.coordinator = self
-        let mainViewController = MainViewController(viewModel: viewModel)
-        navigationController.pushViewController(mainViewController, animated: true)
-        viewModel.loadData()
+        let viewModel = WelcomeViewModel()
+//        viewModel.coordinator = self
+        let viewController = WelcomeViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+//        viewModel.loadData()
     }
 }
