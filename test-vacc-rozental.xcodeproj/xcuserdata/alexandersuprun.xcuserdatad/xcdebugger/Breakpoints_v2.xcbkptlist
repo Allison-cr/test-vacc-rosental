@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6D43F354-FDB9-4BAD-ADCD-015CAE85F25E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C74877AC-D33E-4DDE-ACCF-94D8509FCFC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test-vacc-rozental/EntryScreen/EntryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "setupPasswordTextField()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "bindData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848 - 1dc0dd52a1617072"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (test_vacc_rozental.DashboardResponse) -&gt; () in test_vacc_rozental.PrimaryViewModel.bindData() -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+               <Location
+                  uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848 - b2efe2e9a9f2ea7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test_vacc_rozental.PrimaryViewModel.bindData() -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848 - 1dc0dd52a1617055"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (test_vacc_rozental.DashboardResponse) -&gt; () in test_vacc_rozental.PrimaryViewModel.bindData() -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+               <Location
+                  uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848 - a127e26b0d30efdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; () in test_vacc_rozental.PrimaryViewModel.bindData() -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "A8748D68-A2BD-4CFD-B008-FA567CB77848 - 1dc0dd52a1617055"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (test_vacc_rozental.DashboardResponse) -&gt; () in test_vacc_rozental.PrimaryViewModel.bindData() -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6072CB99-34F6-4EC4-A063-E57D327107A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test-vacc-rozental/Screens/PrimaryScreen/PrimaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "PrimaryViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F4051CB-5878-4429-96A1-1731E2C65178"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F4051CB-5878-4429-96A1-1731E2C65178 - da7c2a7eee2718a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in test_vacc_rozental.EntryViewModel.login(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "2F4051CB-5878-4429-96A1-1731E2C65178 - c7f5c0045ed1a80a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in test_vacc_rozental.EntryViewModel.login(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2F4051CB-5878-4429-96A1-1731E2C65178 - c7f5c0045ed1a869"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in test_vacc_rozental.EntryViewModel.login(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF54C8B0-0FBA-4B33-8632-FF39E4760284"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "login(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF54C8B0-0FBA-4B33-8632-FF39E4760284 - da7c2a7eee271880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in test_vacc_rozental.EntryViewModel.login(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "FF54C8B0-0FBA-4B33-8632-FF39E4760284 - c7f5c0045ed1a869"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in test_vacc_rozental.EntryViewModel.login(username: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "test-vacc-rozental"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexandersuprun/Desktop/test-vacc-rozental/test-vacc-rozental/Screens/EntryScreen/EntryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
