@@ -36,9 +36,12 @@ final class AppCoordinator: BaseCoordinator {
     
     /// Configures and starts the main flow of the application.
     /// This typically involves creating the primary view controllers and presenting them
-    private func runMainFlow() {
-        let coordinator = MainCoordinator(navigationController: navigationController)
+    func runMainFlow() {
+        let tabBarController = TabBarViewController()
+        let coordinator = MainCoordinator(tabBarController: tabBarController)
         addChild(coordinator)
         coordinator.start()
+        navigationController.isNavigationBarHidden = true
+        navigationController.pushViewController(tabBarController, animated: false)
     }
 }

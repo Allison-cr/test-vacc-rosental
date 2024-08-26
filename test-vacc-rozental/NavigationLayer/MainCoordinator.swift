@@ -5,41 +5,39 @@
 //  Created by Alexander Suprun on 22.08.2024.
 //
 
-import Foundation
 import UIKit
 
-// MARK: - MainCoordinator
+final class MainCoordinator: BaseCoordinator {
+    private let tabBarController: UITabBarController
+    private let pages: [TabbarPage] = TabbarPage.allTabbarPages
 
-final class MainCoordinator: Coordinator {
+    init(tabBarController: UITabBarController) {
+        self.tabBarController = tabBarController
+    }
+
     
-    // MARK: - Properties
-       
-    private let navigationController: UINavigationController
-    
-    // MARK: - Initializer
-     
-    /// Initializes the `MainCoordinator` with a specified navigation controller.
-    /// - Parameter navigationController: The navigation controller used to manage view controllers in the main flow.
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    override func start() {
+        tabBarController.viewControllers?.enumerated().forEach { item in
+            guard let controller = item.element as? UINavigationController else { return }
+            runMainFlow(item.offset, controller)
+        }
     }
     
-    // MARK: - Coordinator Lifecycle
-     
-    /// Starts the main flow by calling the `runMainFlow()` method.
-    func start() {
-        runMainFlow()
-    }
-    
-    // MARK: - Private Methods
-     
-    /// Configures and starts the main flow of the application.
-    /// This method sets up the `MainViewModel` and `MainViewController`, and pushes the main view onto the navigation stack.
-    func runMainFlow() {
-        let viewModel = WelcomeViewModel()
-//        viewModel.coordinator = self
-        let viewController = WelcomeViewController(viewModel: viewModel)
-        navigationController.pushViewController(viewController, animated: true)
-//        viewModel.loadData()
+    func runMainFlow(_ index: Int, _ controller: UINavigationController) {
+        let coordinator: Coordinator
+        switch pages[index] {
+        case .primary:
+            coordinator = PrimaryCoordinator(navigationController: controller)
+        case .request:
+            coordinator = EmptyCoordinator(navigationController: controller)
+        case .services:
+            coordinator = EmptyCoordinator(navigationController: controller)
+        case .chat:
+            coordinator = EmptyCoordinator(navigationController: controller)
+        case .contacts:
+            coordinator = EmptyCoordinator(navigationController: controller)
+        }
+        addChild(coordinator)
+        coordinator.start()
     }
 }
