@@ -66,7 +66,6 @@ class CustomView: UIView {
             
             let attributedString = NSMutableAttributedString()
             
-            // Adding integer part with black color
             let integerAttributes: [NSAttributedString.Key: Any] = [
                 .font: UIFont.systemFont(ofSize: 18, weight: .bold),
                 .foregroundColor: UIColor.black
@@ -74,7 +73,6 @@ class CustomView: UIView {
             let integerAttributedString = NSAttributedString(string: integerPart, attributes: integerAttributes)
             attributedString.append(integerAttributedString)
             
-            // Adding decimal part with gray color if exists
             if !decimalPart.isEmpty {
                 let decimalAttributes: [NSAttributedString.Key: Any] = [
                     .font: UIFont.systemFont(ofSize: 18, weight: .bold),

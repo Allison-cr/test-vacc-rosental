@@ -98,7 +98,6 @@ private extension EntryViewController {
         textField.autocapitalizationType = .none
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.layer.cornerRadius = 8
-        // Placeholder attributes
         let placeholderAttributes: [NSAttributedString.Key: Any] = [
             .foregroundColor: UIColor.gray,
             .font: UIFont.systemFont(ofSize: 16)
@@ -106,7 +105,6 @@ private extension EntryViewController {
         textField.attributedPlaceholder = NSAttributedString(string: "E-mail", attributes: placeholderAttributes)
         
         
-        // Left image with padding
         let iconImageView = UIImageView(image: UIImage(systemName: "at"))
         iconImageView.tintColor = .gray
         iconImageView.contentMode = .scaleAspectFit
@@ -131,14 +129,12 @@ private extension EntryViewController {
         textField.isSecureTextEntry = true
         textField.layer.cornerRadius = 8
         
-        // Placeholder attributes
         let placeholderAttributes: [NSAttributedString.Key: Any] = [
             .foregroundColor: UIColor.gray,
             .font: UIFont.systemFont(ofSize: 16)
         ]
         textField.attributedPlaceholder = NSAttributedString(string: "Пароль", attributes: placeholderAttributes)
         
-        // Left image with padding
         let lockImageView = UIImageView(image: UIImage(systemName: "lock")?.withTintColor(.black))
         lockImageView.tintColor = .gray
         lockImageView.contentMode = .scaleAspectFit
@@ -148,7 +144,6 @@ private extension EntryViewController {
         textField.leftView = lockImageViewContainer
         textField.leftViewMode = .always
         
-        // Right button with padding
         let eyeButton = UIButton(type: .custom)
         eyeButton.setImage(UIImage(systemName: "eye.slash")?.withTintColor(.black), for: .normal)
         eyeButton.setImage(UIImage(systemName: "eye")?.withTintColor(.black), for: .selected)
