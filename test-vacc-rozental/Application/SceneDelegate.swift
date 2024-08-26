@@ -18,7 +18,7 @@ extension AppFactory {
         let navigationController = UINavigationController()
         navigationController.navigationBar.prefersLargeTitles = true
         
-        let coordinator = AppCoordinator(navigationController: navigationController)
+        let coordinator = WelcomeCoordinator(navigationController: navigationController)
         
         let window = UIWindow(windowScene: scene)
         window.rootViewController = navigationController
